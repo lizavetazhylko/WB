@@ -1,0 +1,32 @@
+{
+  "name": "wb",
+  "version": "1.0.0",
+  "description": "wb",
+  "source": "./src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lizavetazhylko/WB.git"
+  },
+  "keywords": [
+    "wb"
+  ],
+  "author": "LizavetaZhylko_Hanna-Bog",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lizavetazhylko/WB/issues"
+  },
+  "homepage": "https://github.com/lizavetazhylko/WB#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.1",
+    "parcel": "^2.6.1",
+    "sass": "^1.52.3"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
