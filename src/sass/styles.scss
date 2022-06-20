@@ -56,9 +56,14 @@
     font-weight: 600;
     margin-bottom: 50px;
   }
+
+    .example-cards__wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
   
-    .example-card {
-      &__product {
+    .example-card__product {
         width: 170px;
         height: 230px;
         background-color: gray;
@@ -68,7 +73,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        
   
         &-btn {
           color: #ffffff;
@@ -80,5 +84,3 @@
         }
       }
     }
-  
-}
