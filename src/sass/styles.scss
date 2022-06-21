@@ -80,5 +80,61 @@
         }
       }
     }
-  
+
+    .example-cards__wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+   
+
+    .example-card__product-add-btn{
+      width: 30px;
+      height: 30px;
+      background: #931b79;
+      margin-top: 100%;
+      border-radius: 50%;
+      color: #ffffff;
+      font-size: 20px;
+      opacity: 0.5;
+      border: none;
+    }
+}
+
+
+.busket {
+  height: 40px;
+  width: 450px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.busket-produkt {
+  height: 95%;
+  width: 100px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+
+.busket-price {
+  height: 95%;
+  width: 50px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+
+.example-card__product-delete-btn {
+    width: 30px;
+    height: 30px;
+    background: #931b79;
+    margin-top: 100%;
+    border-radius: 50%;
+    color: #ffffff;
+    font-size: 20px;
+    border: none;
 }
