@@ -25,6 +25,10 @@ fetch('https://62af8d9b3bbf46a352237ac9.mockapi.io/itemCards')
             exampleCardPrice.textContent.itemPrice;
             exampleCardName.textContent.itemName;
 
+            exampleCardProductBtn.setAttribute('data-bs-toggle', 'modal');
+            exampleCardProductBtn.setAttribute('data-bs-target', '#staticBackdrop');
+            exampleCardProductBtn.append("жопа");
+
             //добавление товара в корзину 
             const exampleAddBtn = document.createElement('button');
             exampleAddBtn.append('+');
