@@ -1,0 +1,197 @@
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+.head {
+  width: 100%;
+  height: 80px;
+  background: #d22aae;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  margin-bottom: 50px;
+
+  .wb-title {
+    font-size: 24px;
+    color: #ffffff;
+  }
+
+  .form-control {
+    width: 700px;
+    opacity: 0.3;
+    border-radius: 20px;
+  }
+
+  .btn-primary {
+    color: #d22aae;
+    background: #ffffff;
+    border-color: #ffffff00;
+    font-weight: 600;
+    border-radius: 20px;
+    width: 150px;
+}
+}
+
+.w-100 {
+  height: 350px;
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.carousel-indicators [data-bs-target], .active {
+  background-color:#931b79
+}
+
+.goods {
+  padding: 30px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+
+  .goods-title {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 50px;
+  }
+  
+    .example-card {
+      &__info {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        padding: 0px 15px;
+
+        &-wrapper {
+          display: flex;
+          flex-direction: column;
+        }
+      }
+
+      &__sale {
+        width: 40px;
+        height: 30px;
+        background-color: rgba(240, 255, 255, 0.255);
+        border-radius: 10px;
+        text-align: center;
+        color: #ffffff;
+        text-shadow: black;
+      }
+
+      &__product {
+        width: 170px;
+        height: 230px;
+        border-radius: 15px;
+        border: #d22aae 2px solid;
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+  
+        &-btn {
+          color: #ffffff;
+          background: #ffffff30;
+          border-color: #ffffff00;
+          border-radius: 20px;
+          width: 80%;
+          margin-top: 80px;
+          font-size: 12px;
+        }
+      }
+    }
+
+    .example-cards__wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
+   
+
+    .example-card__product-add-btn{
+      width: 30px;
+      height: 30px;
+      background: #931b79;
+      border-radius: 50%;
+      color: #ffffff;
+      font-size: 20px;
+      opacity: .8;
+      border: none;
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-end;
+    }
+}
+
+
+.busket {
+  height: 40px;
+  width: 450px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.busket-produkt, .busket-price {
+  height: 95%;
+  width: 200px;
+  border: 2px solid #d22aae;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.busket-price {
+  width: 80px;
+}
+
+.remove-all {
+    width: 100px;
+    height: 30px;
+    background: #931b79;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 16px;
+    border: none;
+}
+
+.example-card__sale-button {
+  width: 100%;
+  padding: 0px 10px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 65px;
+}
+
+.example-card__product-price-sale {
+  text-decoration: line-through;
+}
+
+.MW {
+  width: 450px;
+  height: 500px;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: 100%, 100%;
+}
+
+.modal-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.bus-el {
+  width: 90%;
+  height: 40px;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-around ;
+  margin: 5px;
+}

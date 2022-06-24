@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./sass/styles.scss" rel="stylesheet">
+    <link href="./sass/styles2.scss" rel="stylesheet">
     <title>Wildberries</title>
 </head>
 <body>
@@ -17,7 +17,7 @@
         <!--кнопка для поска-->
       </form>
       <!-- Button trigger modal -->
-      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+      <button type="button" id="prod" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
         Корзина
       </button>
       <!-- Modal -->
@@ -30,7 +30,11 @@
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body" id="full-busket">
-              ... тут должны быть товары...
+              
+              <div id="container__busket-product"> <!--Я так и не знаю нужен ли этот див ... -->
+                <div id="full-price"> </div>
+              </div>
+              
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -84,26 +88,22 @@
     <section class="goods">
       <span class="goods-title">Хиты продаж</span>
       <div class="example-cards__wrapper" id="wrapper">
-        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal fade" id="staticBackdrop1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
           <div class="modal-dialog">
             <div class="modal-content">
               <div class="modal-header">
-                <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
-              <div class="modal-body">
-                ...
+              <div class="modal-body" >
+                <div cass="modal-body__jopa" id="jopa">
+
+                </div>
               </div>
               <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Understood</button>
               </div>
             </div>
           </div>
         </div>
-
-
-
       </div>
     </section>
     <script type="module" src="./js/index2.js"></script>
