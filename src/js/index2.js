@@ -92,6 +92,7 @@ const busket = document.getElementById('full-busket');
 let arr = [];
 
 document.getElementById('prod').addEventListener('click', () => {
+    
 
     if (localStorage.getItem('prod')) {
         arr = JSON.parse(localStorage.getItem('prod')).slice(busket.parentElementCount);
@@ -160,3 +161,10 @@ function sum() {
 
 }
 
+
+//чтобы не добавлялись лишние элементы из LS
+const secBtn = document.getElementById("btn-secondary");
+secBtn.addEventListener('click', () => {
+    for (let elem of document.querySelectorAll('.bus-el')) {
+    elem.remove();}
+})
